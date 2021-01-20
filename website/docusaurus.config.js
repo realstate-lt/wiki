@@ -1,18 +1,18 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'RealState Wiki',
+  tagline: 'Projekto sistemų aprašymai',
+  url: 'https://forumas.realstate.lt',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'RealState', // Usually your GitHub org/user name.
+  projectName: 'Wiki', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'RealState Wiki',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Wiki logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -34,37 +34,33 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Wiki',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Pildymo instrukcija',
               to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Projektas',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Serveris',
+              href: 'samp://samp.realstate.lt:7777/',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/CpMkRxC3sF',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Forumas',
+              href: 'https://forumas.realstate.lt/',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Kita',
           items: [
             {
               label: 'Blog',
@@ -72,12 +68,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/realstate-lt/wiki',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} RealState`,
     },
   },
   presets: [
