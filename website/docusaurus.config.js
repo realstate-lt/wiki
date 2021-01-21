@@ -19,13 +19,13 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Dokumentacija',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: 'Blogas', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://forumas.realstate.lt/',
+          label: 'RealState Forumas',
           position: 'right',
         },
       ],
@@ -39,6 +39,10 @@ module.exports = {
             {
               label: 'Pildymo instrukcija',
               to: 'docs/',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/realstate-lt/wiki',
             },
           ],
         },
@@ -63,12 +67,12 @@ module.exports = {
           title: 'Kita',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'VVP',
+              href: 'https://vvp.realstate.lt/login',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/realstate-lt/wiki',
+              label: 'Atnaujinimai',
+              href: 'https://forumas.realstate.lt/forum/7-atnaujinimai/',
             },
           ],
         },
@@ -82,15 +86,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/realstate-lt/wiki',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/realstate-lt/wiki',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
