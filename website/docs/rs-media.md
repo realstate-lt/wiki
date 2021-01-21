@@ -18,9 +18,9 @@ Redaktoriai gali turėti iki 5 darbuotojų savo komandoje. Dydžėjai gali turė
 
 Įstaigos vadovas gali pakviesti žaidėją įsidarbinti, įspėti arba atleistu jau turimus darbuotjus. Taip pat direktorius gali valdyti frakcijos biudžetą ir paskirti darbuotojus į vieną iš trejų įstaigos skyrių. Vadovas taipogi gali matyti darbuotojo rangą, skyrių, kuriam jis priklauso, kiek laiko darbe praleido šiandien arba visą laiką nuo pat įsidarbinimo pradžios.
 
-<img alt="Direktoriaus valdymo pultas" src={useBaseUrl('img/rs-media/direktoriauscp.jpg')} />
+<img alt="Direktoriaus valdymo pultas" src={useBaseUrl('img/rs-media/leader-cp1.jpg')} />
 
-<img alt="Direktoriaus valdymo pultas | darbuotojas" src={useBaseUrl('img/rs-media/direktoriauscp2.jpg')} />
+<img alt="Direktoriaus valdymo pultas | darbuotojas" src={useBaseUrl('img/rs-media/leader-cp2.jpg')} />
 
 ---
 
@@ -61,17 +61,17 @@ Redaktoriai yra atsakingi už laikraščio leidimą, kuris forume publikuojamas 
 
 Dydžėjai yra turbūt linksmiausias RS Media skyrius. Šio skyriaus darbuotojai leidžia muziką per projekto internetinės radijos prieigą. Skyriaus tikslas yra suteikti serverio žaidėjams, kuo dažnesnių pramogų vedant muzikinius vakarus, renginius ir kitokius pramoginius šou. Dydžėjai turi galimybę kalbėti gyvame eteryje ir kviestis svečius.
 
-<img alt="Eteris" src={useBaseUrl('img/rs-media/radijas1.jpg')} />
+<img alt="Eteris" src={useBaseUrl('img/rs-media/radio1.jpg')} />
 
 ### DJ režimas, pageidavimai, bei likes
 
 Dydžėjui serveryje įsijungus DJ režima, žaidėjai parašę **/radijas** gali prisijungti prie vakarėlio ir klausyti jo leidžiamos muzikos. Tuo metu eteryje esantis dydžėjus gali bendrauti su jo klausančiais žaidėjais per **/dj** komanda, bei sutikti išpildyti jų muzikinius pageidavimus. Klausytojai gali parodyti jog eteryje esančio DJ muzika jiems labai patinka rašant **/like**. Like’ai sumuojasi ir užbaigus DJ sesiją, juos gali matyti skyriaus ir visos frakcijos vadovai.
 
-<img alt="Pageidavimai" src={useBaseUrl('img/rs-media/radijas2.jpg')} />
+<img alt="Pageidavimai" src={useBaseUrl('img/rs-media/radio2.jpg')} />
 
-<img alt="Pageidavimo duomenys" src={useBaseUrl('img/rs-media/radijas3.jpg')} />
+<img alt="Pageidavimo duomenys" src={useBaseUrl('img/rs-media/radio3.jpg')} />
 
-<img alt="Patinka" src={useBaseUrl('img/rs-media/radijas4.jpg')} />
+<img alt="Patinka" src={useBaseUrl('img/rs-media/radio4.jpg')} />
 
 ### Darbo komandos
 
