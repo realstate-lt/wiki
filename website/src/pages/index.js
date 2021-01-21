@@ -8,32 +8,34 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Kolaboracija',
+    imageUrl: 'img/renders/bigsmoke.png',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Docosaurus Wikipedia suteikia galimybę itin greitai ir patogiai daugeliui
+        žmonių pildyti serverio dokumentaciją per GitHub. Tuo tarpu Vercel pasirūpina,
+        kad visi naujausi pakeitimai minučių bėgyje atsiranda puslapyje.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Sistemos',
+    imageUrl: 'img/renders/squatting.png',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Visa pagrindinė veikla, darbai ir kitos sistemos bei jų svarbiausi aspektai 
+        bus pažymėti itin maloniu akiai formatu. Itin maloni navigacija bus kaip meilė
+        iš pirmo žvilgsnio
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'RealState',
+    imageUrl: 'img/renders/tenpenny.png',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        RealState vieta kur jūsų svajonės išsipildo. Nesugalvoju ką čia rašyt. 
+        Reik normalaus index page, kad fainai atrodytų.
       </>
     ),
   },
@@ -59,8 +61,8 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="RealState projekto Wiki dokumentacijos saugykla">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -72,7 +74,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              Skaityti
             </Link>
           </div>
         </div>
