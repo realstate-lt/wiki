@@ -74,6 +74,10 @@ module.exports = {
               label: 'Atnaujinimai',
               href: 'https://forumas.realstate.lt/forum/7-atnaujinimai/',
             },
+            {
+              label: 'Supergames tema',
+              href: 'https://www.supergames.lt/topic/326203-realstatelt-nemokami-prizai-kas-24val/page/1/',
+            },
           ],
         },
       ],
