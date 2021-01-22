@@ -4,6 +4,7 @@ module.exports = {
     'Gaujos': ['gauju-veikla', 'gauju-valdymas'],
     'Privatus Darbas': ['paslaugu-imones', 'resursu-imones'],
     'Verslas':['paslaugos', 'prekyba', 'resursai'],
+    'DUK':['duk'],
     'Docusaurus': ['doc1'],
   },
 };
