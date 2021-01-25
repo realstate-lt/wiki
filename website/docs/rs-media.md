@@ -9,7 +9,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 RealState Media sudaro 3 skyriai – Redakcija, Radijas, Skelbimai. Kiekvienas iš šių skyrių turi savo darbo komanda, kurios nariai negali dirbti skirtinguose skyriuose vienu metu. Visi trys skyriai turi savo vyriausiuosius vadovus, kurie yra pavaldūs vienam, visą RS Media valdančiam frakcijos direktoriui ir jo pavaduotojui. Šios frakcijos skyriai atlieka skirtingas funkcijas ir vykdo visiškai skirtingas veiklas tiek žadiime, tiek už jo ribų.
 
-Redaktoriai gali turėti iki 5 darbuotojų savo komandoje. Dydžėjai gali turėti iki 10 darbuotojų savo komandoje. Skelbėjai gali turėti iki 10 darbuotojų savo komandoje.
+Redaktoriai gali turėti iki 5 darbuotojų savo komandoje. Didžėjai gali turėti iki 10 darbuotojų savo komandoje. Skelbėjai gali turėti iki 10 darbuotojų savo komandoje.
 
 ---
 
@@ -31,11 +31,11 @@ Redaktoriai gali turėti iki 5 darbuotojų savo komandoje. Dydžėjai gali turė
 * Komisiniai: 20% nuo laikraščio pardavimų.
 * Vyr. Redaktorius: 100 000$ + 75$/min. + komisiniai
 
-**Dydžėjai** (10 darbo vietų)
+**Didžėjai** (10 darbo vietų)
 * Bazinė savaitinė alga: 50 000$ (mokama banku sekmadienį 18:00)
 * Darbinio transporto naudojimas: 25$/min.
 * Kominisiai: renginiai, pageidavimai, aukos.
-* Vyr. Dydžėjus: 75 000$ + 50$/min + komisiniai
+* Vyr. Didžėjus: 75 000$ + 50$/min + komisiniai
 
 **Skelbėjai** (10 darbo vietų)
 * Bazinė savaitinė alga: 25 000$ (mokama banku sekmadienį 18:00)
@@ -59,13 +59,13 @@ Redaktoriai yra atsakingi už laikraščio leidimą, kuris forume publikuojamas 
 ## Radijas
 ### Darbo pobūdis
 
-Dydžėjai yra turbūt linksmiausias RS Media skyrius. Šio skyriaus darbuotojai leidžia muziką per projekto internetinės radijos prieigą. Skyriaus tikslas yra suteikti serverio žaidėjams, kuo dažnesnių pramogų vedant muzikinius vakarus, renginius ir kitokius pramoginius šou. Dydžėjai turi galimybę kalbėti gyvame eteryje ir kviestis svečius.
+Didžėjai yra turbūt linksmiausias RS Media skyrius. Šio skyriaus darbuotojai leidžia muziką per projekto internetinės radijos prieigą. Skyriaus tikslas yra suteikti serverio žaidėjams, kuo dažnesnių pramogų vedant muzikinius vakarus, renginius ir kitokius pramoginius šou. Didžėjai turi galimybę kalbėti gyvame eteryje ir kviestis svečius.
 
 <img alt="Eteris" src={useBaseUrl('img/rs-media/radio1.jpg')} />
 
 ### DJ režimas, pageidavimai, bei likes
 
-Dydžėjui serveryje įsijungus DJ režima, žaidėjai parašę **/radijas** gali prisijungti prie vakarėlio ir klausyti jo leidžiamos muzikos. Tuo metu eteryje esantis dydžėjus gali bendrauti su jo klausančiais žaidėjais per **/dj** komanda, bei sutikti išpildyti jų muzikinius pageidavimus. Klausytojai gali parodyti jog eteryje esančio DJ muzika jiems labai patinka rašant **/like**. Like’ai sumuojasi ir užbaigus DJ sesiją, juos gali matyti skyriaus ir visos frakcijos vadovai.
+Didžėjui serveryje įsijungus DJ režima, žaidėjai parašę **/radijas** gali prisijungti prie vakarėlio ir klausyti jo leidžiamos muzikos. Tuo metu eteryje esantis didžėjus gali bendrauti su jo klausančiais žaidėjais per **/dj** komanda, bei sutikti išpildyti jų muzikinius pageidavimus. Klausytojai gali parodyti jog eteryje esančio DJ muzika jiems labai patinka rašant **/like**. Like’ai sumuojasi ir užbaigus DJ sesiją, juos gali matyti skyriaus ir visos frakcijos vadovai.
 
 <img alt="Pageidavimai" src={useBaseUrl('img/rs-media/radio2.jpg')} />
 
@@ -77,7 +77,7 @@ Dydžėjui serveryje įsijungus DJ režima, žaidėjai parašę **/radijas** gal
 
 * **/startdj** – įjungia DJ rėžimą ir pradeda skaičiuoti sesijos laiką.
 * **/stopdj** – išjungia DJ rėžimą ir išsaugo sesijos laiką.
-* **/dj** – dydžėjaus rašomas tekstas, kurį mato visi prisijungę radijos klausytojai.
+* **/dj** – didžėjaus rašomas tekstas, kurį mato visi prisijungę radijos klausytojai.
 * **/radijas** – leidžia klausytis oficialaus projekto radijo.
 * **/pageidavimai** – Esant įjungtam DJ rėžimui, žaidėjas gali iš jo užsakyti sveikinimą, kurį matys visi kiti klausantys.
 
