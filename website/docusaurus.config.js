@@ -91,12 +91,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/realstate-lt/wiki',
+            'https://github.com/realstate-lt/wiki/website',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/realstate-lt/wiki',
+            'https://github.com/realstate-lt/wiki/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
