@@ -1,4 +1,4 @@
 # RealState Wiki repositorija
 
 Kaip paleisti Wiki lokaliai?
-`website` folderyje paleiskite komandą: `npm run start`
+Paleiskite komandą: `npm run start`
