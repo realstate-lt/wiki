@@ -3,9 +3,11 @@ id: resursu-imones
 title: Resursų Įmonės
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 ## Metalo verslas
 
-[FOTO]
+<img alt="Metalas" src={useBaseUrl('img/imones/resursu/metal-outside.jpg')} />
 
 ### Įsidarbinimas
 
@@ -16,6 +18,8 @@ title: Resursų Įmonės
 * Darbo transportas: **Yosemite**
 
 Įmonės ofise galite įsidarbinti, persirengti į darbo uniformą bei pasiimti kastuvą. Įmonės kieme galite rasti darbinį transportą, į kurį įlipus šis bus priskirtas tik jums, todėl kiti darbuotojai negalės juo naudotis. Baigus darbą arba norint pasiimti naują darbo transporto priemonę, sunaikinti esamą galite su komanda /sunaikinti. 
+
+<img alt="Metalas" src={useBaseUrl('img/imones/resursu/metal-inside.jpg')} />
 
 ### Rangai
 
@@ -42,9 +46,15 @@ Metalkasio darbas iškasti metalo luitus netoli Angel Pine esančioje metalo kas
 
 Iškasus metalo rūdies ją reikia pakrauti į savo darbo transportą. Transporte telpa 5 luitai, kuriuos sukrovus metalas vežamas į įmonės sandėlį ir ten iškraunamas. Norint sėkmingai pristatyti metalo rūdį ir už ją gauti užmokestį, į sandėlį būtina atgabenti ne mažiau 5 metalo luitų.
 
+<img alt="Metalas" src={useBaseUrl('img/imones/resursu/metal-working1.jpg')} />
+
+<img alt="Metalas" src={useBaseUrl('img/imones/resursu/metal-working2.jpg')} />
+
 ---
 
 ## Medienos verslas
+
+<img alt="Mediena" src={useBaseUrl('img/imones/resursu/wood-outside.jpg')} />
 
 ### Įsidarbinimas
 
@@ -55,6 +65,8 @@ Iškasus metalo rūdies ją reikia pakrauti į savo darbo transportą. Transport
 * Darbo transportas: Yosemite
 
 Įmonės ofise galima įsidarbinti, persirengti į darbo uniformą bei pasiimti benzo pjūklą. Įmonės kieme galite rasti darbinį transportą, į kurį įlipus šis bus priskirtas tik jums, todėl kiti darbuotojai negalės juo naudotis. Baigus darbą arba norint pasiimti naują darbo transporto priemonę, sunaikinti esamą galite su komanda /sunaikinti. 
+
+<img alt="Mediena" src={useBaseUrl('img/imones/resursu/wood-inside.jpg')} />
 
 ### Rangai
 
@@ -87,6 +99,8 @@ Nuotraukos keliamos…
 
 ## Plastiko verslas
 
+<img alt="Plastikas" src={useBaseUrl('img/imones/resursu/plastic-outside.jpg')} />
+
 ### Įsidarbinimas
 
 Žaliavų išgavimo įmonės žaidėjams suteikia nekvalifikuotą darbą, kurį galima dirbti be verslo savininko pakvietimo.
@@ -96,6 +110,8 @@ Nuotraukos keliamos…
 * Darbo transportas: **Yosemite**
 
 Įmonės ofise galima įsidarbinti, persirengti į darbo uniformą bei pasiimti šiukšlių maišus. Įmonės kieme galite rasti darbinį transportą, į kurį įlipus šis bus priskirtas tik jums, todėl kiti darbuotojai negalės juo naudotis. Baigus darbą arba norint pasiimti naują darbo transporto priemonę, sunaikinti esamą galite su komanda /sunaikinti. 
+
+<img alt="Plastikas" src={useBaseUrl('img/imones/resursu/plastic-inside.jpg')} />
 
 ### Rangai
 
@@ -122,9 +138,15 @@ Plastiko rinkėjų darbas rinkti šiukšles San Fierro mieste ir aplink jį. Nor
 
 Transporte telpa 5 šiukšlių maišai, kuriuos sukrovus šiukšlės vežamos į įmonės perdirbimo cechą ir ten iškraunamos bei perdirbamos į plastiką. Norint sėkmingai pristatyti šiukšles ir už jas gauti užmokestį, į cechą būtina atgabenti ne mažiau 5 maišų.
 
+<img alt="Plastikas" src={useBaseUrl('img/imones/resursu/plastic-working1.jpg')} />
+
+<img alt="Plastikas" src={useBaseUrl('img/imones/resursu/plastic-working2.jpg')} />
+
 ---
 
 ## Mėsos verslas
+
+<img alt="Mėsa" src={useBaseUrl('img/imones/resursu/meat-outside.jpg')} />
 
 ### Įsidarbinimas
 
@@ -135,6 +157,8 @@ Maisto išgavimo įmonės žaidėjams suteikia nekvalifikuotą darbą, kurį gal
 * Darbo transportas: **Yosemite**
 
 Įmonės ofise galima įsidarbinti, persirengti į darbo uniformą bei pasiimti medžioklinį šautuvą. Įmonės kieme galite rasti darbinį transportą, į kurį įlipus šis bus priskirtas tik jums, todėl kiti darbuotojai negalės juo naudotis. Baigus darbą arba norint pasiimti naują darbo transporto priemonę, sunaikinti esamą galite su komanda /sunaikinti. 
+
+<img alt="Mėsa" src={useBaseUrl('img/imones/resursu/meat-inside.jpg')} />
 
 ### Rangai
 
@@ -167,6 +191,8 @@ Nuotraukos keliamos…
 
 ## Žuvies verslas
 
+<img alt="Žuvis" src={useBaseUrl('img/imones/resursu/fish-outside.jpg')} />
+
 ### Įsidarbinimas
 
 Maisto išgavimo įmonės žaidėjams suteikia nekvalifikuotą darbą, kurį galima dirbti be verslo savininko pakvietimo.
@@ -176,6 +202,8 @@ Maisto išgavimo įmonės žaidėjams suteikia nekvalifikuotą darbą, kurį gal
 * Darbo transportas: **Pony**
 
 Įmonės ofise galima įsidarbinti, persirengti į darbo uniformą bei pasiimti meškerę. Įmonės kieme galite rasti darbinį transportą, į kurį įlipus šis bus priskirtas tik jums, todėl kiti darbuotojai negalės juo naudotis. Baigus darbą arba norint pasiimti naują darbo transporto priemonę, sunaikinti esamą galite su komanda /sunaikinti. 
+
+<img alt="Žuvis" src={useBaseUrl('img/imones/resursu/fish-inside.jpg')} />
 
 ### Rangai
 
@@ -208,6 +236,8 @@ Nuotraukos keliamos…
 
 ## Grūdų verslas
 
+<img alt="Grūdai" src={useBaseUrl('img/imones/resursu/farm-outside.jpg')} />
+
 ### Įsidarbinimas
 
 Maisto išgavimo įmonės žaidėjams suteikia nekvalifikuotą darbą, kurį galima dirbti be verslo savininko pakvietimo.
@@ -217,6 +247,8 @@ Maisto išgavimo įmonės žaidėjams suteikia nekvalifikuotą darbą, kurį gal
 * Darbo transportas: **Walton**, **Combine Harvester**, **Tractor**
 
 Įmonės kieme, šalia gyvenamojo pastato durų, galima įsidarbinti ir persirengti į darbo uniformą. Darbui reikalingas sėklas galima rasti prie sandėlio. Įmonės kieme galite rasti darbinį transportą, į kurį įlipus šis bus priskirtas tik jums, todėl kiti darbuotojai negalės juo naudotis. Baigus darbą arba norint pasiimti naują darbo transporto priemonę, sunaikinti esamą galite su komanda /sunaikinti. 
+
+<img alt="Grūdai" src={useBaseUrl('img/imones/resursu/farm-fields.jpg')} />
 
 ### Rangai
 
@@ -246,9 +278,19 @@ Po keletos minučių, kai grūdų laukas užauga, darbuotojui reikia įlipti į 
 
 Transporte telpa 5 grūdų presai, kuriuos sukrovus, jie vežami į įmonės sandėlį ir ten iškraunami. Norint sėkmingai pristatyti grūdus ir už juos gauti užmokestį, į sandėlį būtina atgabenti ne mažiau 5 grūdų presų.
 
+<img alt="Grūdai" src={useBaseUrl('img/imones/resursu/farm-working1.jpg')} />
+
+<img alt="Grūdai" src={useBaseUrl('img/imones/resursu/farm-working2.jpg')} />
+
+<img alt="Grūdai" src={useBaseUrl('img/imones/resursu/farm-working3.jpg')} />
+
+<img alt="Grūdai" src={useBaseUrl('img/imones/resursu/farm-working4.jpg')} />
+
 ---
 
 ## Naftos verslas
+
+<img alt="Nafta" src={useBaseUrl('img/imones/resursu/oil-outside.jpg')} />
 
 ### Įsidarbinimas
 
@@ -259,6 +301,8 @@ Naftos įmonės žaidėjams suteikia nekvalifikuotą darbą, kurį galima dirbti
 * Darbo transportas: **Tanker**
 
 Įmonės ofise galima įsidarbinti ir persirengti į darbo uniformą bei pasiimti taisymo įrankius. Įmonės kieme galite rasti darbinį transportą, į kurį įlipus šis bus priskirtas tik jums, todėl kiti darbuotojai negalės juo naudotis. Įmonės kieme tapogi galite prisikabinti naftos cisternas, kurios reikalingos gabenant naftą iš verslo valdomų gręžinių. Baigus darbą arba norint pasiimti naują darbo transporto priemonę, sunaikinti esamą galite su komanda /sunaikinti. 
+
+<img alt="Nafta" src={useBaseUrl('img/imones/resursu/oil-inside.jpg')} />
 
 ### Rangai
 
@@ -288,9 +332,19 @@ Naftos verslo darbuotojo veikla susidaro iš dviejų dalykų – naftos gabenima
 
 Naftos verslo darbuotojai gauna pranešimą, kai gręžinys sugenda ir jį reikia sutaisyti. Taipogi visų verslo valdomų gręžinių būklę, talpą ir lygį galima peržiūrėti naudojant /greziniai komandą. Norint pataisyti gręžinį, pasiimkite taisymo įrankius iš ofiso ir atvykite prie gręžinio, kuris yra sugedęs. Priėjus prie valdymo skydo rašykite /taisyti. Ekrane atsiras taisymo progreso juosta, kuriais užsipildžius gręžinys bus sėkmingai sutvarkytas.
 
+<img alt="Nafta" src={useBaseUrl('img/imones/resursu/oil-working1.jpg')} />
+
+<img alt="Nafta" src={useBaseUrl('img/imones/resursu/oil-working2.jpg')} />
+
+<img alt="Nafta" src={useBaseUrl('img/imones/resursu/oil-working3.jpg')} />
+
+<img alt="Nafta" src={useBaseUrl('img/imones/resursu/oil-working4.jpg')} />
+
 ---
 
 ## Energijos verslas
+
+<img alt="Energija" src={useBaseUrl('img/imones/resursu/energy-outside.jpg')} />
 
 ### Įsidarbinimas
 
@@ -301,6 +355,8 @@ Energijos įmonės žaidėjams suteikia nekvalifikuotą darbą, kurį galima dir
 * Darbo transportas: **Yosemite**
 
 Įmonės skydinės kampe, mažame ofise, galima įsidarbinti ir persirengti į darbo uniformą bei pasiimti taisymo įrankius. Įmonės kieme galite rasti darbinį transportą, į kurį įlipus šis bus priskirtas tik jums, todėl kiti darbuotojai negalės juo naudotis. Baigus darbą arba norint pasiimti naują darbo transporto priemonę, sunaikinti esamą galite su komanda /sunaikinti. 
+
+<img alt="Energija" src={useBaseUrl('img/imones/resursu/energy-inside.jpg')} />
 
 ### Rangai
 
@@ -329,5 +385,11 @@ Energijos įmonės žaidėjams suteikia nekvalifikuotą darbą, kurį galima dir
 Energijos verslo darbuotojo veikla susidaro iš dviejų dalykų – energijos gabenimas ir generatorių taisymas. Norint gabenti energiją iš verslo valdomų generatorių, darbuotojui reikia darbinio transporto. Visus verslui priklausančius generatorius, galima pamatyti parašius /generatoriai. Pasirinkus viena iš jų, jis bus pažymėtas jūsų žemėlapyje. Atvykus prie generatoriaus įsitikinkite, jog jūsų darbinis transportas pakankamai arti jo ir pasikraukite energiją naudodami /pildyti. Ekrane atsiras krovimosi progreso juosta, jai užsipildžius – darbinio transporto baterija visiškai pilna ir energiją galima gabenti atgal į darbo įmonę. Įmonės elektros perdirbimo stotyje energija tampa elektra, kurią elektros įmonė vėliau parduoda visiems kitiems serverio verslams.
 
 Energijos verslo darbuotojai gauna pranešimą, kai generatorius sugenda ir jį reikia sutaisyti. Taip pat visų verslo valdomų generatorių būklę, talpą ir lygį galima peržiūrėti naudojant /generatoriai komandą. Norint pataisyti generatorių, pasiimkite taisymo įrankius iš ofiso ir atvykite prie generatoriaus, kuris yra sugedęs. Priėjus prie valdymo skydo rašykite /taisyti. Ekrane atsiras taisymo progreso juosta, kurią užpildžius generatorius bus sėkmingai sutvarkytas.
+
+<img alt="Energija" src={useBaseUrl('img/imones/resursu/energy-working1.jpg')} />
+
+<img alt="Energija" src={useBaseUrl('img/imones/resursu/energy-working2.jpg')} />
+
+<img alt="Energija" src={useBaseUrl('img/imones/resursu/energy-working3.jpg')} />
 
 ---

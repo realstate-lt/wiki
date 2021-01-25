@@ -3,9 +3,11 @@ id: paslaugu-imones
 title: Paslaugų Įmonės
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 ## Logistikos verslas
 
-[FOTO]
+<img alt="Logistika" src={useBaseUrl('img/imones/paslaugu/logistics-outside.jpg')} />
 
 ---
 
@@ -52,28 +54,20 @@ Fūristai užsiema resursų, prekių, bei produktų transportavimu. Užsakymai s
 * Klientai: transporto gamyklos, ginklų gamyklos, baldų gamyklos.
 * Pasikrovimas: Los Santos resursų turgus
 
-[FOTO]
-
 **Restoranų užsakymai**
 * Užsakomi resursai: mėsa, žuvis, grūdai.
 * Klientai: restoranai.
 * Pasikrovimas: Los Santos resursų turgus
-
-[FOTO]
 
 **Parduotuvių užsakymai**
 * Užsakomos prekės: transporto priemonės, ginklai, baldai.
 * Klientai: transporto priemonių salonai, ginklų parduotuvės, baldų parduotuvės.
 * Pasikrovimas: nurodytos gamyklos.
 
-[FOTO]
-
 **Dirbtiniai užsakymai**
 * Užsakymai: įvairūs
 * Klientai: įvairūs
 * Pasikrovimas: įvairus
-
-[FOTO]
 
 ---
 
@@ -83,19 +77,13 @@ Fūristai užsiema resursų, prekių, bei produktų transportavimu. Užsakymai s
 * Talpa: 250vnt.
 * Rangas: ”Rango pavadinimas 1”
 
-[FOTO]
-
 **Sunkvežimiai**
 * Talpa: 500vnt.
 * Rangas: ”Rango pavadinimas 2”
 
-[FOTO]
-
 **Vilkikai su priekaba**
 * Talpa: 1000vnt.
 * Rangas: ”Rango pavadinimas 3”
-
-[FOTO]
 
 ---
 
@@ -107,7 +95,7 @@ Pildoma…
 
 ## Mechanikų verslas
 
-[FOTO]
+<img alt="Mechanikai" src={useBaseUrl('img/imones/paslaugu/mechanics-outside.jpg')} />
 
 ---
 
@@ -146,29 +134,35 @@ Mechanikai užsiema nuosavų transporto priemonių taisymu, tuningavimu, tobulin
 
 Naudojant šį įrenginį, atstatoma kliento transporto priemonės būklė.
 
-[FOTO]
+<img alt="Mechanikai" src={useBaseUrl('img/imones/paslaugu/mechanics-fix.jpg')} />
 
 **Dažymo ir tune įrenginys**
 
 Naudojant šį įrenginį, galima perdažyti kliento transporto priemonę, taipogi atlikti tuningavimą.
 
-[FOTO]
+<img alt="Mechanikai" src={useBaseUrl('img/imones/paslaugu/mechanics-paint.jpg')} />
+
+<img alt="Mechanikai" src={useBaseUrl('img/imones/paslaugu/mechanics-tune.jpg')} />
 
 **Čipavimo įrenginys**
 
 Naudojant šį įrenginį, galima patobulinti kliento transporto priemonės variklį, kad ši pasiektų didesnį greitį kelyje.
 
-[FOTO]
+<img alt="Mechanikai" src={useBaseUrl('img/imones/paslaugu/mechanics-chiptune1.jpg')} />
+
+<img alt="Mechanikai" src={useBaseUrl('img/imones/paslaugu/mechanics-chiptune2.jpg')} />
 
 **Apsaugos įrenginys**
 
 Naudojant šį įrenginį, galima patobulinti kliento transporto priemonės kėbulą, kad šis galėtų atlaikyti daugiau žalos.
 
+<img alt="Mechanikai" src={useBaseUrl('img/imones/paslaugu/mechanics-armour1.jpg')} />
+
+<img alt="Mechanikai" src={useBaseUrl('img/imones/paslaugu/mechanics-armour2.jpg')} />
+
 ---
 
 ### Darbo transportas
-
-[FOTO]
 
 ---
 
@@ -184,3 +178,5 @@ Naudojant šį įrenginį, galima patobulinti kliento transporto priemonės kėb
 ---
 
 ## Taksi verslas
+
+Pildoma ...

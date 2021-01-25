@@ -3,12 +3,16 @@ id: paslaugos
 title: Paslaugos
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 ## Apžvalga
 ### Pildoma ...
 
 ---
 
 ## Logistikos įmonės
+
+<img alt="Logistika" src={useBaseUrl('img/paslaugos/logistics-outside.jpg')} />
 
 ### Bendroji informacija
 
@@ -17,6 +21,10 @@ Logistikos centras yra įsikūręs netoli San Fierro uosto. Centrui priklauso 2 
 ### Verslo valdymas
 
 Verslo savininkas gali priimti, bei atleisti darbuotojus. Padidinti galimų darbuotojų, bei darbo transporto skaičių, pirkdamas verslo atnaujinimą. Valdyti verslo biudžetą, nustatyti darbuotojų užmokestį už praleistą laiką naudojantis darbo transportu, bei už atliktą pervežimo užsakymą. Taip pat įmonės savininkas gali pirkti naujus sunkvežimius, priekabas ir juos valdyti.
+
+<img alt="Logistika" src={useBaseUrl('img/paslaugos/logistics-leader-cp1.jpg')} />
+
+<img alt="Logistika" src={useBaseUrl('img/paslaugos/logistics-leader-cp2.jpg')} />
 
 ### Užsakymų įvykdymas
 
@@ -34,17 +42,25 @@ Verslo savininkas gali priimti, bei atleisti darbuotojus. Padidinti galimų darb
 
 ## Mechanikų įmonės
 
+<img alt="Mechanikai" src={useBaseUrl('img/paslaugos/mechanics-outside.jpg')} />
+
 ### Bendroji informacija
 
 Mechanikų dirbtuvės įsikūrusios netoli San Fierro – Bayside pasienio ruožo, po tiltu ir dabar apleistame – San Fierro oro uoste. Mechanikų įmonės atlieka visus su nuosavu žaidėjų transportu susijusius darbus. Taiso, tiuninguoja, tobulina transporto priemones, išduoda transporto draudimą.
+
+<img alt="Mechanikai" src={useBaseUrl('img/paslaugos/mechanics-inside.jpg')} />
 
 ### Verslo valdymas
 
 Verslo savininkas gali priimti, bei atleisti darbuotojus. Padidinti galimų darbuotojų, bei darbo transporto skaičių, pirkdamas verslo atnaujinimą. Valdyti verslo biudžetą, nustatyti darbuotojų užmokestį už praleistą laiką naudojantis darbo transportu, bei už atliktas paslaugas. Taip pat įmonės savininkas gali pirkti naują darbo transportą ir jį valdyti.
 
+<img alt="Mechanikai" src={useBaseUrl('img/paslaugos/mechanics-leader-cp1.jpg')} />
+
 ### Verslo įrenginiai
 
 Įmonės savininkas turi galimybę pirkti įrenginius, kurie leidžia darbuotojams atlikti automobilio sutaisymą, variklio patobulinimą, tiuningavimo paslaugas, įdiegti apsaugines transporto funkcijas. Neturint verslo įrenginių, įmonė negali teikti aukščiau išvardintų paslaugų.
+
+<img alt="Mechanikai" src={useBaseUrl('img/paslaugos/mechanics-leader-cp2.jpg')} />
 
 ---
 
