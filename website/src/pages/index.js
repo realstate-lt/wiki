@@ -8,34 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Kolaboracija',
+    title: 'Aprašymai',
     imageUrl: 'img/renders/bigsmoke.png',
     description: (
       <>
-        Docosaurus Wikipedia suteikia galimybę itin greitai ir patogiai daugeliui
-        žmonių pildyti serverio dokumentaciją per GitHub. Tuo tarpu Vercel pasirūpina,
-        kad visi naujausi pakeitimai minučių bėgyje atsiranda puslapyje.
+        Čia rasite visus su serveriu susijusius aprašymus. Visos sistemos aprašytos išsamiai, su vaizdais iš serverio.
       </>
     ),
   },
   {
-    title: 'Sistemos',
+    title: 'Gidai',
     imageUrl: 'img/renders/squatting.png',
     description: (
       <>
-        Visa pagrindinė veikla, darbai ir kitos sistemos bei jų svarbiausi aspektai 
-        bus pažymėti itin maloniu akiai formatu. Itin maloni navigacija bus kaip meilė
-        iš pirmo žvilgsnio
+        Čia rasite oficialius arba bendruomenės narių, parašytus gidus. Skirta pradedantiesiems žaidėjams.
       </>
     ),
   },
   {
-    title: 'RealState',
+    title: 'Paslaugos',
     imageUrl: 'img/renders/tenpenny.png',
     description: (
       <>
-        RealState vieta kur jūsų svajonės išsipildo. Nesugalvoju ką čia rašyt. 
-        Reik normalaus index page, kad fainai atrodytų.
+        Čia rasite visas teikiamas projekto paslaugas už pinigus. Sužinokite ką žaidėjas galės įsigyti serveryje ir kas bus suteikiama.
       </>
     ),
   },
