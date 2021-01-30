@@ -12,7 +12,7 @@ const features = [
     imageUrl: 'img/renders/bigsmoke.png',
     description: (
       <>
-        Čia rasite visus su serveriu susijusius aprašymus. Visos sistemos aprašytos išsamiai, su vaizdais iš serverio.
+        Išsamius serverio sistemų aprašymus su vaizdais iš serverio.
       </>
     ),
   },
@@ -21,7 +21,7 @@ const features = [
     imageUrl: 'img/renders/squatting.png',
     description: (
       <>
-        Čia rasite oficialius arba bendruomenės narių, parašytus gidus. Skirta pradedantiesiems žaidėjams.
+        Oficialius ir bendruomenės narių parašytus gidus, skirtus pradedantiesiems žaidėjams ir ne tik.
       </>
     ),
   },
@@ -30,7 +30,7 @@ const features = [
     imageUrl: 'img/renders/tenpenny.png',
     description: (
       <>
-        Čia rasite visas teikiamas projekto paslaugas už pinigus. Sužinokite ką žaidėjas galės įsigyti serveryje ir kas bus suteikiama.
+        Visus projekto pirkinius ir jų įkainius. Sužinok ką žaidėjas galės įsigyti serveryje ir kas bus suteikiama.
       </>
     ),
   },
@@ -68,12 +68,13 @@ function Home() {
 
         <div className={styles.content}>
           <div className={styles.headline}>
-            <h1>{siteConfig.title}</h1>
-            <p>{siteConfig.tagline}</p>
+            <h5>Sveiki atvykę į</h5>
+            <h1>{siteConfig.title}!</h1>
+            <h5 className={styles.subtext}>Čia rasite:</h5>
           </div>
           
           
-          
+
           {features && features.length > 0 && (
             <section className={styles.features}>
               {features.map((props, idx) => (

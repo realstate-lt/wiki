@@ -82,7 +82,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} RealState`,
+      copyright: `Visos teisės saugomos © ${new Date().getFullYear()} RealState.lt`,
     },
   },
   presets: [
