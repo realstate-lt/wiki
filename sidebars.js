@@ -3,7 +3,8 @@ module.exports = {
     'DUK':['duk'],
     'Frakcijos': ['policija', 'swat', 'medikai', 'rs-media'],
     'Gaujos': ['gauju-veikla', 'gauju-valdymas'],
-    'Privatus Darbas': ['paslaugu-imones', 'resursu-imones'],
+    'Paslaugų įmonės': ['taksi', 'logistika', 'mechanikai'],
+    'Resursų įmonės': ['mesa', 'zuvis', 'mediena', 'grudai', 'metalas', 'plastikas', 'nafta'],
     'Verslas':['paslaugos', 'prekyba', 'resursai'],
   },
 };
