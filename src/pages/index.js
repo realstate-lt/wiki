@@ -1,5 +1,4 @@
 import React from 'react';
-import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -39,14 +38,14 @@ const features = [
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={styles.feature}>
       {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
+        <img className={styles.featureImage} src={imgUrl} alt={title} />
       )}
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <div className={styles.featureText}>
+        <h3>{title}</h3>
+        <p>{description}</p>
+      </div>
     </div>
   );
 }
@@ -72,9 +71,6 @@ function Home() {
             <h1>{siteConfig.title}!</h1>
             <h5 className={styles.subtext}>Čia rasite:</h5>
           </div>
-          
-          
-
           {features && features.length > 0 && (
             <section className={styles.features}>
               {features.map((props, idx) => (
@@ -82,9 +78,6 @@ function Home() {
               ))}
             </section>
           )}
-          
-          
-
         </div>
       </main>
 
