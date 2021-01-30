@@ -1,15 +1,16 @@
 ---
 id: duk
 title: Dažnai užduodami klausimai
+slug: /
 ---
 
 ## Kurią SA-MP versiją naudoja serveris?
-Naudojame 0.3.7-R4 versiją, kurią galite persisiųsti čia.
+Naudojame 0.3.7-R4 versiją, kurią galite persisiųsti [čia](https://files.sa-mp.com/sa-mp-0.3.7-R4-install.exe).
 
 ---
 
 ## Kada serverio startas?
-Planuojame atlikti reikiamus uždarus ir atvirus beta testus iki Sausio pabaigos, o Vasario mėnesį serveris taps prieinamas kiekvienam. Nuo to kiek daug klaidų bus rasta ir kaip greit jas pavyks sutvarkyti, priklausys konkreti starto data Vasario mėnesį.
+Planuojame atlikti reikiamus uždarus ir atvirus beta testus iki sausio pabaigos, o vasario mėnesį serveris taps prieinamas kiekvienam. Nuo to kiek daug klaidų bus rasta ir kaip greit jas pavyks sutvarkyti, priklausys konkreti starto data vasario mėnesį.
 
 ---
 
@@ -24,7 +25,7 @@ Pagrindinis serverio miestas vyksta **San Fierro**. Jame rasite paslaugų sferos
 ---
 
 ## Kada vyks artimiausios atrankos?
-Apie vykdomas atrankas visada bus pranešta forume ir discord. Niekada slapta ar be oficialios atrankos nerinksime testuotojų, moderatorių, administratorių, prižiūrėtojų. Paskelbus atranką, suteiksime užtektinai laiko, jog visi norintys kandidatuoti, spėtų užpildyti anketą. Dabartines projekto atrankas, galite pamatyti čia.
+Apie vykdomas atrankas visada bus pranešta forume ir discord. Niekada slapta ar be oficialios atrankos nerinksime testuotojų, moderatorių, administratorių, prižiūrėtojų. Paskelbus atranką, suteiksime užtektinai laiko, jog visi norintys kandidatuoti, spėtų užpildyti anketą. Dabartines projekto atrankas, galite pamatyti [čia](https://forumas.realstate.lt/forum/8-atrankos/).
 
 ---
 
