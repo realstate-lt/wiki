@@ -5,6 +5,37 @@
  * and scoped locally.
  */
 
+
+main {
+}
+
+.videoBackground {
+  position: fixed;
+  z-index: -99;
+  width: 100%;
+  height: 100%;
+}
+
+main .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+}
+
+.headline h1 {
+  color: white;
+}
+
+.headline p {
+  color: white;
+}
+
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -17,18 +48,19 @@
     padding: 2rem;
   }
 }
-
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.features {
+.featuresContainer {
   display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  flex-direction: row;
+}
+
+section.features:not(:first-child) {
+  margin-top: 1rem;
 }
 
 .featureImage {
