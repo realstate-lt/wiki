@@ -39,6 +39,7 @@ main .contentWrapper {
 
 main .content {
   position: relative;
+  padding: 15px;
 }
 
 main .content::after {
@@ -84,7 +85,6 @@ main .content::after {
 }
 
 .features {
-  padding: 10px;
 }
 
 .feature {
