@@ -57,7 +57,7 @@ function Feature({imageUrl, title, description}) {
 function BackgroundVideo() {
   const videoRef = useRef();
   const setSpeed = () => {
-    videoRef.current.playbackRate = 0.85;
+    videoRef.current.playbackRate = 1.0;
   }
 
   return (
