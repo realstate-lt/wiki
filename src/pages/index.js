@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -54,6 +54,25 @@ function Feature({imageUrl, title, description}) {
   );
 }
 
+function BackgroundVideo() {
+  const videoRef = useRef();
+  const setSpeed = () => {
+    videoRef.current.playbackRate = 0.85;
+  }
+
+  return (
+    <video 
+      ref={videoRef}
+      autoPlay
+      loop
+      muted
+      onCanPlay={() => setSpeed()}
+    >
+      <source src='https://realstate.lt/assets/header_video.mp4' type='video/mp4'/>
+    </video>
+  );
+};
+
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
@@ -64,9 +83,7 @@ function Home() {
     >
       <div className={styles.indexRoot}>
         <div className={styles.videoBackground}>
-          <video autoPlay loop muted>
-            <source src='https://realstate.lt/assets/header_video.mp4' type='video/mp4' />
-          </video>
+          <BackgroundVideo />
         </div>
         <main>
           <div className={styles.contentWrapper}>
