@@ -28,3 +28,7 @@
   display: flex;
   flex-direction: column;
 } 
+
+.footer--dark {
+  background-color: #232d30;
+}
