@@ -11,7 +11,7 @@ const features = [
     imageUrl: 'img/renders/bigsmoke.png',
     description: (
       <>
-        Išsamius serverio sistemų aprašymus su vaizdais iš serverio.
+        Išsamūs serverio sistemų aprašymai su vaizdais iš serverio.
       </>
     ),
   },
@@ -20,7 +20,7 @@ const features = [
     imageUrl: 'img/renders/squatting.png',
     description: (
       <>
-        Oficialius ir bendruomenės narių parašytus gidus, skirtus pradedantiesiems žaidėjams ir ne tik.
+        Oficialūs ir bendruomenės narių parašyti gidai, skirti pradedantiesiems žaidėjams ir ne tik.
       </>
     ),
   },
@@ -29,7 +29,7 @@ const features = [
     imageUrl: 'img/renders/tenpenny.png',
     description: (
       <>
-        Visus projekto pirkinius ir jų įkainius. Sužinok ką žaidėjas galės įsigyti serveryje ir kas bus suteikiama.
+        Visi projekto pirkiniai ir jų įkainiai. Sužinok ką žaidėjas gali įsigyti serveryje ir kas bus suteikiama.
       </>
     ),
   },
@@ -45,6 +45,7 @@ function Feature({imageUrl, title, description}) {
       <div className={styles.featureText}>
         <h3>{title}</h3>
         <p>{description}</p>
+        <i className={styles.arrowRight}></i>
       </div>
     </div>
   );
@@ -58,26 +59,26 @@ function Home() {
       title={`${siteConfig.title}`}
       description="RealState projekto Wiki dokumentacijos saugykla"
     >
+      <div className={styles.videoBackground}>
+        <video autoPlay loop muted>
+          <source src='https://realstate.lt/assets/header_video.mp4' type='video/mp4' />
+        </video>
+      </div>
       <main>
-        <div className={styles.videoBackground}>
-          <iframe frameborder="0" height="100%" width="100%"
-            src="https://youtube.com/embed/x6a6DeLVMJU?autoplay=1&controls=0&showinfo=0&autohide=1&autoplay=1">
-          </iframe>
-        </div>
-
-        <div className={styles.content}>
-          <div className={styles.headline}>
-            <h5>Sveiki atvykę į</h5>
-            <h1>{siteConfig.title}!</h1>
-            <h5 className={styles.subtext}>Čia rasite:</h5>
+        <div className={styles.contentWrapper}>
+          <div className={styles.content}>
+            <div className={styles.headline}>
+              <h5>Sveiki atvykę į</h5>
+              <h1>{siteConfig.title}!</h1>
+            </div>
+            {features && features.length > 0 && (
+              <section className={styles.features}>
+                {features.map((props, idx) => (
+                  <Feature key={idx} {...props} />
+                ))}
+              </section>
+            )}
           </div>
-          {features && features.length > 0 && (
-            <section className={styles.features}>
-              {features.map((props, idx) => (
-                <Feature key={idx} {...props} />
-              ))}
-            </section>
-          )}
         </div>
       </main>
 
