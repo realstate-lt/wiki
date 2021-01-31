@@ -13,20 +13,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### Bendroji informacija
 
-San Fierro policijos departamentas yra viena iš svarbiausių frakcijų, padedančiu išlaikyti tvarką mieste. Šią viešają įstaigą valdo direktorius, kurį išrenka miesto gyventojai. Institucijos tikslas – reaguoti į pagalbos iškvietimus, bausti nusikaltelius, bei gaudyti jau paieškomus žaidėjus.
+San Fierro policijos departamentas yra viena iš svarbiausių frakcijų, padedančių išlaikyti tvarką mieste. Šią viešają įstaigą valdo direktorius, kurį išrenka miesto gyventojai. Institucijos tikslas – reaguoti į pagalbos iškvietimus, bausti nusikaltelius, bei gaudyti jau paieškomus žaidėjus.
 
 Šis departamentas glaudžiai bendradarbiauja su SWAT rinktine, tačiau prieš organizuotą nusikalstatumą nekovoja. Policijos departamento pareiga užtikrinti mieste tvarką ir pasirūpinti civiliais. Sudėtingais atvejais, kai gaudomi pavojingi nusikalteliai arba gaujų nariai, policija gali prašyti pastiprinimo iš SWAT rinktinės.
-
----
-
-## Frakcijos valdymas
-### Direktoriaus valdymo pultas
-
-Įstaigos vadovas gali priimti, atleisti arba įspėti savo darbuotojus. Taip pat jis gali matyti darbuotojo rangą, kiek laiko darbe praleido šiandien arba visą laiką nuo pat įsidarbinimo pradžios. Šios frakcijos direktorius gali pirkti ir pilnai valdyti darbinė transportą. Įstaigos vadovas turi galimybę išsirinkti pavaduotoją, kuris jam padėtų.
-
-<img alt="Direktoriaus pultas" src={useBaseUrl('img/police/leader-cp1.jpg')} />
-
-<img alt="Direktoriaus pultas" src={useBaseUrl('img/police/leader-cp2.jpg')} />
 
 ---
 
@@ -56,12 +45,13 @@ Policijos darbuotojai gali bet kada peržiūrėti ir valdyti miesto kameras, kur
 
 <img alt="Policijos kameros 2" src={useBaseUrl('img/police/mdc-camera-view2.jpg')} />
 
+
 ---
 
 ## Žaidėjo sulaikymas
 ### Patikra, bei įtarimas už nusikaltimą
 
-Policijos pareigūnai gali bet kada pareikalauti žaidėjo sustoti ir jam atlikti patikrą. Patikros metu patikrinamas gaudomumo lygis, turimos licenzijos, žaidėjo ginklai, bei daiktai. Žaidėjui nusižengus, įvykdžius nusikaltimą arba patikros metu nustačius jog žmogus neturi reikiamos licenzijos, nelegalių daiktų, bei ginklų – jis bus įtariamas atitinkamu kiekiu žvaigždučių. Baigus patikrą ir pareigūnui suteikus įtarimo lygį, žaidėjas turi pasirinkimą arba mokėti baudą policininkui arba nuvykti į komisariatą, kad apmokėti baudą ten. Jei po įtarimo žaidėjas turi daugiau, nei 40 žvaigždučių, kviečiamas pastiprinimas ir žaidėjas keliauja į kalėjimą.
+Policijos pareigūnai gali bet kada pareikalauti žaidėjo sustoti ir jam atlikti patikrą. Patikros metu patikrinamas gaudomumo lygis, turimos licenzijos, žaidėjo ginklai, bei daiktai. Žaidėjui nusižengus, įvykdžius nusikaltimą arba patikros metu nustačius jog žmogus neturi reikiamos licenzijos, nelegalių daiktų, bei ginklų – jis bus įtariamas atitinkamu kiekiu žvaigždučių. Baigus patikrą ir pareigūnui suteikus įtarimo lygį, žaidėjas turi pasirinkimą arba mokėti baudą policininkui arba nuvykti į komisariatą, kad apmokėti baudą ten. Jei po įtarimo žaidėjas turi daugiau, nei 40 žvaigždučių, kviečiamas pastiprinimas ir žaidėjas keliauja į kalėjimą. Sumokėjus baudą pareigūnui, pareigūnas gauna 20% sumos. 
 
 <img alt="Policijos patikra" src={useBaseUrl('img/police/arrest.jpg')} />
 
@@ -79,11 +69,17 @@ Policijos darbuotojas gali panaudoti tazerį, jei įtariamasis atsisako paklusti
 
 ### Papildomos komandos
 
-* /isodinti – įsodiną surakintą žaidėją į jūsų darbinį automobilį.
+* /isodinti – įsodina surakintą žaidėją į jūsų darbinį automobilį.
 * /islaipinti – išlaipina žaidėją iš automobilio.
 * /tempti – pradeda tempti žaidėja paskui save.
 * /bega – pažymi žaidėją kaip bėglį.
 * /spygliai – išskleidžia ant žemės spyglius, kurie susprogdina automobilio padangas.
+* /atimtiteises – atims žaidėjo teises.
+* /atimtigun – atims žaidėjo ginklus.
+* /atimtinark – atims žaidėjo narkotikus.
+* /istraukti – išlaipins surakintą žaidėją iš automobilio.
+
+Pilną komandų sąrašą rasite __/dkomandos__.
 
 ---
 
@@ -92,58 +88,47 @@ Policijos darbuotojas gali panaudoti tazerį, jei įtariamasis atsisako paklusti
 
 Policijos departamentas turi 5 darbuotojų rangus, kurie suteikia skirtingą užmokestį, bei suteikia galimybes naudotis geresniu darbiniu transportu.
 
-**”Rango pavadinimas 1”**
-* Bazinis atlyginimas: 20$/min
+**”Praktikantas”**
+* Bazinis atlyginimas: 20000$/savaitę
+* Tarnybinio transporto naudojimas: 3$/min
+
+**”Kadetas”**
+* Bazinis atlyginimas: 30000$/savaitę
+* Tarnybinio transporto naudojimas: 6$/min
+
+**”Patrulis”**
+* Bazinis atlyginimas: 40000$/savaitę
+* Tarnybinio transporto naudojimas: 10$/min
+
+**”Viršila”**
+* Bazinis atlyginimas: 50000$/savaitę
 * Tarnybinio transporto naudojimas: 15$/min
-* Viršvalandžiai: 0.5x
-* Bonus užmokestis: 0% nuo surinkto dienos biudžeto
 
-**”Rango pavadinimas 2”**
-* Bazinis atlyginimas: 25$/min
-* Tarnybinio transporto naudojimas: 20$/min
-* Viršvalandžiai: 0.5x
-* Bonus užmokestis: 0% nuo surinkto dienos biudžeto
-
-**”Rango pavadinimas 3”**
-* Bazinis atlyginimas: 30$/min
+**”Kapitonas”**
+* Bazinis atlyginimas: 60000$/savaitę
 * Tarnybinio transporto naudojimas: 25$/min
-* Viršvalandžiai: 1x
-* Bonus užmokestis: 1% nuo surinkto dienos biudžeto
-
-**”Rango pavadinimas 4”**
-* Bazinis atlyginimas: 35$/min
-* Tarnybinio transporto naudojimas: 30$/min
-* Viršvalandžiai: 2x
-* Bonus užmokestis: 3% nuo surinkto dienos biudžeto
-
-**”Rango pavadinimas 5”**
-* Bazinis atlyginimas: 45$/min
-* Tarnybinio transporto naudojimas: 40$/min
-* Viršvalandžiai: 3x
-* Bonus užmokestis: 5% nuo surinkto dienos biudžeto
-* Darbo transportas pagal rangą
 
 ### Transportas
 
-**”Rango pavadinimas 1”**
+**”Praktikantas”**
 * LVPD cadet car
 
-**”Rango pavadinimas 2”**
+**”Kadetas”**
 * LVPD cadet car
 * LSPD police car
 
-**”Rango pavadinimas 3”**
+**”Patrulis”**
 * LVPD cadet car
 * LSPD police car
 * HPV1000
 
-**”Rango pavadinimas 4”**
+**”Viršila”**
 * LVPD cadet car
 * LSPD police car
 * HPV1000
 * Police ranger
 
-**”Rango pavadinimas 5”**
+**”Kapitonas”**
 * LVPD cadet car
 * LSPD police car
 * HPV1000
@@ -152,13 +137,13 @@ Policijos departamentas turi 5 darbuotojų rangus, kurie suteikia skirtingą už
 
 ### Karjeros progreso galimybės
 
-Išdirbęs ilgą laiką, šios įstaigos pareigūnas, gali progresuoti ir bandyti patekti į SWAT rinktinę. Tik pavyzdingiausi ir geriausiai savo darbą išmanantys policijos pareigūnai, gali pretenduoti į aukštesnę frakciją. SWAT departamentas rengia atrankas, kur tikrinami elgsenos, vairavimo, bei šaudymo gebėjimai. Tai elitinė teisėsaugos šaka, kurioje kovojame prieš organizuotą nusikalstamumą.
+Išdirbęs ilgą laiką, šios įstaigos pareigūnas gali progresuoti ir bandyti patekti į SWAT rinktinę. Tik pavyzdingiausi ir geriausiai savo darbą išmanantys policijos pareigūnai, gali pretenduoti į aukštesnę frakciją. SWAT departamentas rengia atrankas, kur tikrinami elgsenos, vairavimo, bei šaudymo gebėjimai. Tai elitinė teisėsaugos šaka, kurioje kovojame prieš organizuotą nusikalstamumą.
 
 ---
 
 ## Darbo komandos
 
-Visos policininko darbo komandos, kurias gali naudoti aukščiausio rango teisėsaugininkas. Žemesnio rango pareigūnams, kai kurios komandos nėra prieinamos.
+Visos policininko darbo komandos, kurias gali naudoti aukščiausio rango teisėsaugininkas.
 
 <img alt="Policijos komandos 1" src={useBaseUrl('img/police/commands1.jpg')} />
 
@@ -166,3 +151,11 @@ Visos policininko darbo komandos, kurias gali naudoti aukščiausio rango teisė
 
 ---
 
+## Frakcijos valdymas
+### Direktoriaus valdymo pultas
+
+Įstaigos vadovas gali priimti, atleisti arba įspėti savo darbuotojus. Taip pat jis gali matyti darbuotojo rangą, kiek laiko darbe praleido šiandien arba visą laiką nuo pat įsidarbinimo pradžios. Įstaigos vadovas turi galimybę valdyti rangų pavadinimus, frakcijos biudžetą ir išsirinkti pavaduotoją, kuris jam padėtų.
+
+<img alt="Direktoriaus pultas" src={useBaseUrl('img/police/leader-cp1.jpg')} />
+
+<img alt="Direktoriaus pultas" src={useBaseUrl('img/police/leader-cp2.jpg')} />
