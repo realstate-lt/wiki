@@ -20,13 +20,13 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/",
+          to: "docs",
           activeBasePath: "docs",
           label: "Dokumentacija",
           position: "left",
         },
         {
-          to: "blog/",
+          to: "blog",
           activeBasePath: "blog",
           label: "Gidai",
           position: "left",

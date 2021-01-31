@@ -18,7 +18,6 @@ Ketinate pradėti žaidimą RealState.lt serveryje? Šis gidas jums labai pagelb
 <!--truncate-->
 
 
-
 :::note pastaba
 Kai kurie pavadinimai ar vietos gali būti neteisingos ir pasikeitusios.
 :::
