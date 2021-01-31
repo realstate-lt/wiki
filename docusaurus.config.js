@@ -8,6 +8,9 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "RealState", // Usually your GitHub org/user name.
   projectName: "Wiki", // Usually your repo name.
+  customFields: {
+    ogImage: "img/logo.png",
+  },
   themeConfig: {
     navbar: {
       title: "RealState Wiki",
@@ -22,7 +25,6 @@ module.exports = {
           label: "Dokumentacija",
           position: "left",
         },
-        { to: "blog", label: "Blogas", position: "left" },
         {
           href: "https://forumas.realstate.lt/",
           label: "RealState Forumas",
@@ -82,7 +84,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} RealState`,
+      copyright: `Visos teisės saugomos © ${new Date().getFullYear()} RealState.lt`,
     },
   },
   presets: [
@@ -91,10 +93,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/realstate-lt/wiki/tree/master",
-        },
-        blog: {
-          showReadingTime: true,
           editUrl: "https://github.com/realstate-lt/wiki/tree/master",
         },
         theme: {

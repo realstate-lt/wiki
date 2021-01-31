@@ -1,5 +1,4 @@
-import React from 'react';
-import clsx from 'clsx';
+import React, { useRef } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -12,7 +11,7 @@ const features = [
     imageUrl: 'img/renders/bigsmoke.png',
     description: (
       <>
-        Čia rasite visus su serveriu susijusius aprašymus. Visos sistemos aprašytos išsamiai, su vaizdais iš serverio.
+        Išsamūs serverio sistemų aprašymai su vaizdais iš serverio.
       </>
     ),
   },
@@ -21,7 +20,7 @@ const features = [
     imageUrl: 'img/renders/squatting.png',
     description: (
       <>
-        Čia rasite oficialius arba bendruomenės narių, parašytus gidus. Skirta pradedantiesiems žaidėjams.
+        Oficialūs ir bendruomenės narių parašyti gidai, skirti pradedantiesiems žaidėjams ir ne tik.
       </>
     ),
   },
@@ -30,7 +29,7 @@ const features = [
     imageUrl: 'img/renders/tenpenny.png',
     description: (
       <>
-        Čia rasite visas teikiamas projekto paslaugas už pinigus. Sužinokite ką žaidėjas galės įsigyti serveryje ir kas bus suteikiama.
+        Visi projekto pirkiniai ir jų įkainiai. Sužinok ką žaidėjas gali įsigyti serveryje ir kas bus suteikiama.
       </>
     ),
   },
@@ -39,17 +38,40 @@ const features = [
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <Link
+      className={styles.feature}
+      to='/docs'
+    >
       {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </div>
+        <img className={styles.featureImage} src={imgUrl} alt={title} />
+        )}
+      <div className={styles.featureText}>
+        <h3>{title}</h3>
+        <p>{description}</p>
+        <i className={styles.arrowRight}></i>
+      </div>
+    </Link>
   );
 }
+
+function BackgroundVideo() {
+  const videoRef = useRef();
+  const setSpeed = () => {
+    videoRef.current.playbackRate = 1.0;
+  }
+
+  return (
+    <video 
+      ref={videoRef}
+      autoPlay
+      loop
+      muted
+      onCanPlay={() => setSpeed()}
+    >
+      <source src='https://realstate.lt/assets/header_video.mp4' type='video/mp4'/>
+    </video>
+  );
+};
 
 function Home() {
   const context = useDocusaurusContext();
@@ -57,36 +79,31 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="RealState projekto Wiki dokumentacijos saugykla">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}>
-              Skaityti
-            </Link>
-          </div>
+      description="RealState projekto Wiki dokumentacijos saugykla"
+    >
+      <div className={styles.indexRoot}>
+        <div className={styles.videoBackground}>
+          <BackgroundVideo />
         </div>
-      </header>
-      <main>
-        {features && features.length > 0 && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
+        <main>
+          <div className={styles.contentWrapper}>
+            <div className={styles.content}>
+              <div className={styles.headline}>
+                <h5>Sveiki atvykę į</h5>
+                <h1>{siteConfig.title}!</h1>
               </div>
+              {features && features.length > 0 && (
+                <section className={styles.features}>
+                  {features.map((props, idx) => (
+                    <Feature key={idx} {...props} />
+                  ))}
+                </section>
+              )}
             </div>
-          </section>
-        )}
-      </main>
+          </div>
+        </main>
+      </div>
+  
     </Layout>
   );
 }
