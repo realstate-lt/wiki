@@ -3,7 +3,7 @@ module.exports = {
   tagline: "Projekto sistemų aprašymai",
   url: "https://forumas.realstate.lt",
   baseUrl: "/",
-  onBrokenLinks: "warn",
+  onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "RealState", // Usually your GitHub org/user name.

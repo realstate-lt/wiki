@@ -4,7 +4,6 @@ title: Kaip pradėti žaidimą RealState.lt serveryje
 tags: [naujokas]	
 hide_table_of_contents: false
 description: testas
-draft: true
 ---
 
 import Tabs from '@theme/Tabs';
