@@ -8,6 +8,9 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "RealState", // Usually your GitHub org/user name.
   projectName: "Wiki", // Usually your repo name.
+  customFields: {
+    ogImage: "img/logo.svg"
+  },
   themeConfig: {
     navbar: {
       title: "RealState Wiki",
