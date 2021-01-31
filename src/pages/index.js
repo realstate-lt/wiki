@@ -59,29 +59,30 @@ function Home() {
       title={`${siteConfig.title}`}
       description="RealState projekto Wiki dokumentacijos saugykla"
     >
-      <div className={styles.videoBackground}>
-        <video autoPlay loop muted>
-          <source src='https://realstate.lt/assets/header_video.mp4' type='video/mp4' />
-        </video>
-      </div>
-      <main>
-        <div className={styles.contentWrapper}>
-          <div className={styles.content}>
-            <div className={styles.headline}>
-              <h5>Sveiki atvykę į</h5>
-              <h1>{siteConfig.title}!</h1>
-            </div>
-            {features && features.length > 0 && (
-              <section className={styles.features}>
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </section>
-            )}
-          </div>
+      <div className={styles.indexRoot}>
+        <div className={styles.videoBackground}>
+          <video autoPlay loop muted>
+            <source src='https://realstate.lt/assets/header_video.mp4' type='video/mp4' />
+          </video>
         </div>
-      </main>
-
+        <main>
+          <div className={styles.contentWrapper}>
+            <div className={styles.content}>
+              <div className={styles.headline}>
+                <h5>Sveiki atvykę į</h5>
+                <h1>{siteConfig.title}!</h1>
+              </div>
+              {features && features.length > 0 && (
+                <section className={styles.features}>
+                  {features.map((props, idx) => (
+                    <Feature key={idx} {...props} />
+                  ))}
+                </section>
+              )}
+            </div>
+          </div>
+        </main>
+      </div>
   
     </Layout>
   );
