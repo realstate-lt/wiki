@@ -38,16 +38,19 @@ const features = [
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={styles.feature}>
+    <Link
+      className={styles.feature}
+      to='/docs'
+    >
       {imgUrl && (
         <img className={styles.featureImage} src={imgUrl} alt={title} />
-      )}
+        )}
       <div className={styles.featureText}>
         <h3>{title}</h3>
         <p>{description}</p>
         <i className={styles.arrowRight}></i>
       </div>
-    </div>
+    </Link>
   );
 }
 

@@ -22,7 +22,6 @@ module.exports = {
           label: "Dokumentacija",
           position: "left",
         },
-        { to: "blog", label: "Blogas", position: "left" },
         {
           href: "https://forumas.realstate.lt/",
           label: "RealState Forumas",
@@ -91,10 +90,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/realstate-lt/wiki/tree/master",
-        },
-        blog: {
-          showReadingTime: true,
           editUrl: "https://github.com/realstate-lt/wiki/tree/master",
         },
         theme: {
