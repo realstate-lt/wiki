@@ -26,6 +26,12 @@ module.exports = {
           position: "left",
         },
         {
+          to: "blog/",
+          activeBasePath: "blog",
+          label: "Gidai",
+          position: "left",
+        },
+        {
           href: "https://forumas.realstate.lt/",
           label: "RealState Forumas",
           position: "right",
@@ -94,6 +100,13 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/realstate-lt/wiki/tree/master",
+        },
+        blog: {	
+          showReadingTime: true,
+          editUrl: "https://github.com/realstate-lt/wiki/tree/master",
+          feedOptions: {
+            language: 'lt'
+          }
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

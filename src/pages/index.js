@@ -9,6 +9,7 @@ const features = [
   {
     title: 'Aprašymai',
     imageUrl: 'img/renders/bigsmoke.png',
+    linksTo: '/docs',
     description: (
       <>
         Išsamūs serverio sistemų aprašymai su vaizdais iš serverio.
@@ -18,6 +19,7 @@ const features = [
   {
     title: 'Gidai',
     imageUrl: 'img/renders/squatting.png',
+    linksTo: '/blog',
     description: (
       <>
         Oficialūs ir bendruomenės narių parašyti gidai, skirti pradedantiesiems žaidėjams ir ne tik.
@@ -27,6 +29,7 @@ const features = [
   {
     title: 'Paslaugos',
     imageUrl: 'img/renders/tenpenny.png',
+    linksTo: '/docs',
     description: (
       <>
         Visi projekto pirkiniai ir jų įkainiai. Sužinok ką žaidėjas gali įsigyti serveryje ir kas bus suteikiama.
@@ -35,12 +38,12 @@ const features = [
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({imageUrl, title, description, linksTo}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <Link
       className={styles.feature}
-      to='/docs'
+      to={linksTo}
     >
       {imgUrl && (
         <img className={styles.featureImage} src={imgUrl} alt={title} />
