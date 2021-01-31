@@ -17,14 +17,6 @@ Rinktinė glaudžiai bendradarbiauja su San Fierro policijos departamentu ir esa
 
 ---
 
-## Frakcijos valdymas
-
-<img alt="Direktoriaus valdymo pultas" src={useBaseUrl('img/swat/leader-cp.jpg')} />
-
-Įstaigos vadovas gali priimti, atleisti arba įspėti savo darbuotojus. Taip pat jis gali matyti darbuotojo rangą, kiek laiko darbe praleido šiandien arba visą laiką nuo pat įsidarbinimo pradžios. Šios frakcijos direktorius gali pirkti ir pilnai valdyti darbinį transportą. Įstaigos vadovas turi galimybę išsirinkti pavaduotoją, kuris jam padėtų.
-
----
-
 ## Reputacijos ir orderiai
 ### Reputacija
 
@@ -39,37 +31,52 @@ Norint atlikti reidą, SWAT rinktinei prireiks orderių . Teisėsauga per 24val.
 ## Karjera
 ### Darbo rangai
 
-SWAT turi 3 darbuotojų rangus, kurie suteikia skirtingą užmokestį bei galimybes naudotis geresniu darbiniu transportu.
+SWAT turi 5 darbuotojų rangus, kurie suteikia skirtingą užmokestį bei galimybes naudotis geresniu darbiniu transportu.
 
-**”Rango pavadinimas 1”**
-* Bazinis atlyginimas: 60$/min
-* Tarnybinio transporto naudojimas: 40$/min
-* Viršvalandžiai: 1x
-* Premija už sėkmingą reidą: 1000$ – 3000$
+**”Praktikantas”**
+* Bazinis atlyginimas: 30000$/savaitę
+* Tarnybinio transporto naudojimas: 15$/min
 
-**”Rango pavadinimas 2”**
-* Bazinis atlyginimas: 80$/min
-* Tarnybinio transporto naudojimas: 50$/min
-* Viršvalandžiai: 2x
-* Premija už sėkmingą reidą: 3000$ – 5000$
+**”Kadetas”**
+* Bazinis atlyginimas: 40000$/savaitę
+* Tarnybinio transporto naudojimas: 20$/min
 
-**”Rango pavadinimas 3”**
-* Bazinis atlyginimas: 100$/min
-* Tarnybinio transporto naudojimas: 60$/min
-* Viršvalandžiai: 3x
-* Premija už sėkmingą reidą: 5000$ – 10000$
-* Darbo transportas pagal rangą
+**”Patrulis”**
+* Bazinis atlyginimas: 50000$/savaitę
+* Tarnybinio transporto naudojimas: 30$/min
 
+**”Viršila”**
+* Bazinis atlyginimas: 60000$/savaitę
+* Tarnybinio transporto naudojimas: 35$/min
+
+**”Kapitonas”**
+* Bazinis atlyginimas: 75000$/savaitę
+* Tarnybinio transporto naudojimas: 45$/min
 ### Transportas
 
 **”Rango pavadinimas 1”**
+* FBI truck
+
+**”Rango pavadinimas 1”**
+* FBI truck
+* SWAT truck
+
+**”Rango pavadinimas 1”**
+* FBI truck
+* SWAT truck
 * Enforcer
 
 **”Rango pavadinimas 2”**
+* FBI truck
+* SWAT truck
 * Enforcer
+* Maverick
 
 **”Rango pavadinimas 3”**
+* FBI truck
+* SWAT truck
 * Enforcer
+* Maverick
 * FBI Rancher
 
 ---
@@ -107,3 +114,13 @@ Sandėlio reidas yra prieš paskutinis žingsnis, kurį reikia atlikti SWAT rink
 <img alt="Gaujos pagrindinis namas" src={useBaseUrl('img/swat/gang-base.jpg')} />
 
 Gaujos pagrindinio namo reidas yra paskutinis veiksmas, kurį reikia atlikti SWAT rinktinei, norint visiškai eliminuoti gaują. Reido principas paremtas pickup sistema, kur teisėsaugos atstovas turi paimti ir išlaikyti namo pickup 15min. kad reidas būtų sėkmingas. Teisėsaugininkai negali leisti paimti pickup gaujos nariams, kadangi tai anuliuos jų laikmatį ir 15min. pradės skaičiuotis gaujų naudai. Jei gauja išlaikys pickup visas 15min. ir SWAT nesugebės perimti jo, namas bus apgintas ir reidas baigsis. Jeigu žaidėjas, kuris paemė pickup paskutinis – nužudomas, laikas vistiek eina toliau, kol pickup nėra perimamas priešų.
+
+
+---
+
+## Frakcijos valdymas
+
+<img alt="Direktoriaus valdymo pultas" src={useBaseUrl('img/swat/leader-cp.jpg')} />
+
+Įstaigos vadovas gali priimti, atleisti arba įspėti savo darbuotojus. Taip pat jis gali matyti darbuotojo rangą, kiek laiko darbe praleido šiandien arba visą laiką nuo pat įsidarbinimo pradžios. Įstaigos vadovas turi galimybę valdyti rangų pavadinimus, frakcijos biudžetą ir išsirinkti pavaduotoją, kuris jam padėtų.
+
