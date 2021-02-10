@@ -9,7 +9,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Apžvalga
 
-Logistika –  vienintelis ir pagrindinis miesto transportavimo paslaugų sektoriaus verslas kuris yra įsikūręs San Fierro mieste, tai yra pamatinis miesto verslas, be kurio prekės ir produktai negalėtų judėti į skirtingų rūšių verslus, o jie juda labai įvairiai – iš resursų į Los Santos turgų, į gamyklas ir galiausiai tarp gamyklų ir parduotuvių. Logistikos centras yra išskaidytas į dvi atskiras įmones, kurios verslininkų yra valdomos atskirai, o verslą įsigyti gali bet kas turintis pakankamą kiekį pinigų ir verslo patirties skaičių. 
+**Logistika** –  vienintelis ir pagrindinis miesto transportavimo paslaugų sektoriaus verslas kuris yra įsikūręs San Fierro mieste, tai yra pamatinis miesto verslas, be kurio prekės ir produktai negalėtų judėti į skirtingų rūšių verslus, o jie juda labai įvairiai – iš resursų į Los Santos turgų, į gamyklas ir galiausiai tarp gamyklų ir parduotuvių. Logistikos centras yra išskaidytas į dvi atskiras įmones, kurios verslininkų yra valdomos atskirai, o verslą įsigyti gali bet kas turintis pakankamą kiekį pinigų ir verslo patirties skaičių. 
 
 ### Darbo aprašymas
 
@@ -30,23 +30,28 @@ Pagrindinė darbo komanda yra „/uzsakymai“, atsidarę šią komandą matysit
 <img src="https://i.imgur.com/CsihfYk.png" />
 <img src="https://i.imgur.com/Wu8AcfE.png" />
 
+---
 ## Darbo komandos
 
 Visos darbo komandos kurias gali naudoti kiekvienas logistikos įmonės darbuotojas.
 
-**/uzsakymai** - komanda su kuria galėsite matyti galimus užsakymus ir juos priimti
+- **/uzsakymai** - komanda su kuria galėsite matyti galimus užsakymus ir juos priimti
 
-**/iskrovimas** - pažymės turimo krovinio iškrovimo vietą iš naujo
+- **/iskrovimas** - pažymės turimo krovinio iškrovimo vietą iš naujo
 
-**/pakrovimas** - pažymės turimo krovinio pakrovimo vietą iš naujo
+- **/pakrovimas** - pažymės turimo krovinio pakrovimo vietą iš naujo
 
-**/atsauktikrovini** - atšauks šiuo metu vykdomą krovinį, bet už tai jums bus skirta piniginė bauda
+- **/atsauktikrovini** - atšauks šiuo metu vykdomą krovinį, bet už tai jums bus skirta piniginė bauda
 
-**/atkabinti** - atkabins šiuo metu prikabinta priekabą prie transporto priemonės
+- **/atkabinti** - atkabins šiuo metu prikabinta priekabą prie transporto priemonės
 
-**/bendradarbiai** - peržiūrėsite prisijungusius kolegas
+- **/bendradarbiai** - galima pamatyti bendradarbių sąrašą
 
-**/r** - žinutės rašymas per darbo racija
+- **/r** - žinutės rašymas per darbo raciją
+
+Pilną komandų sąrašą rasite __/dkomandos__.
+
+---
 
 ## Darbo rangai
 
